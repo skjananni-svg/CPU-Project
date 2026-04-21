@@ -78,30 +78,13 @@ This allows the system to:
 
 ##  Features
 
-*  Smart SJF Scheduling using predicted burst time
-*  Lightweight ML model (no training required)
+* Smart SJF Scheduling using predicted burst time
+* Lightweight ML model (no training required)
 * Interactive user input
 * Gantt Chart visualization
 * Waiting Time & Turnaround Time calculation
-*  CSV dataset integration for testing
+* CSV dataset integration for testing
 * Comparison with traditional scheduling (optional)
-
-
-
-##  Dataset
-
-The project uses a dataset (burst_dataset.csv) with the following structure:
-
-| arrival_mod | priority | past_burst | burst |
-| ----------- | -------- | ---------- | ----- |
-| 1           | 5        | 10         | 12    |
-| 3           | 2        | 5          | 7     |
-
-This dataset is used to:
-
-* Validate prediction accuracy
-* Compare predicted vs actual burst times
-
 
 
 ##  Technologies Used
