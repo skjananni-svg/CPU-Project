@@ -19,7 +19,7 @@ Instead of relying on manually provided burst times, the system *predicts burst 
 
 ##  Key Concept
 
-### 🔹Traditional SJF
+### Traditional SJF
 
 In standard SJF scheduling:
 
